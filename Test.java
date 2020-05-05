@@ -13,8 +13,8 @@ public class Test {
 		System.out.println("distance de " +
 		        p1 + " à " + p2 + " : " + d12);
 		Cercle c1 = new Cercle(3.0);
-		System.out.println(c1.toString());
+		System.out.println(c1);
 		Cercle c2 = new Cercle(p2, 5.0);
-		System.out.println(c2.toString());
+		System.out.println(c2);
 	}
 }
