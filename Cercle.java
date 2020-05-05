@@ -7,6 +7,9 @@ public class Cercle {
 		this.centre = centre;
 		this.rayon = rayon;
 	}
+	public Cercle(double rayon) {
+		this(new Point(),rayon);
+	}
 	public String toString(){
 		return "Cercle de centre " + centre +
 				" et rayon " + rayon;

@@ -12,6 +12,8 @@ public class Test {
 		double d12 = p1.distance(p2);
 		System.out.println("distance de " +
 		        p1 + " à " + p2 + " : " + d12);
+		Cercle c1 = new Cercle(3.0);
+		System.out.println(c1.toString());
 		Cercle c2 = new Cercle(p2, 5.0);
 		System.out.println(c2.toString());
 	}
